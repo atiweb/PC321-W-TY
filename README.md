@@ -10,7 +10,7 @@
 
 ## 📋 Overview
 
-This repository documents a **verified working integration** of the **PC321-W-TY** (Tuya/OWON WiFi Energy Meter) with **Home Assistant** using the **LocalTuya** integration (via HACS).
+This repository documents a **verified working integration** of the **PC321-W-TY** (Tuya/OWON WiFi Energy Meter) with **Home Assistant** using the **LocalTuya** integration by [xZetsubou](https://github.com/xZetsubou/hass-localtuya) (installed via custom repository in HACS).
 
 The PC321-W-TY is a bidirectional WiFi 3-phase energy meter, ideal for monitoring electricity consumption and solar export to the grid.
 
@@ -45,7 +45,22 @@ The official Tuya integration in Home Assistant shows this device as "unsupporte
 
 ## 🔧 Integration Method: LocalTuya
 
-This guide uses **LocalTuya** (not "Tuya Local" - they are different integrations!).
+This guide uses **LocalTuya** by xZetsubou (not "Tuya Local" - they are different integrations!).
+
+> 📦 **Repository**: https://github.com/xZetsubou/hass-localtuya
+>
+> This is an actively maintained fork with additional features and better device support.
+
+### Installation via HACS (Custom Repository)
+
+1. Open **HACS** in Home Assistant
+2. Go to **Integrations**
+3. Click the **⋮** menu (three dots) → **Custom repositories**
+4. Add the repository URL: `https://github.com/xZetsubou/hass-localtuya`
+5. Select category: **Integration**
+6. Click **Add**
+7. Search for "LocalTuya" and install it
+8. Restart Home Assistant
 
 LocalTuya provides **100% local communication** with the device - no cloud dependency.
 
@@ -183,7 +198,7 @@ This project is licensed under the MIT License - see [LICENSE](LICENSE) for deta
 ## 🙏 Acknowledgments
 
 - Home Assistant Community
-- [LocalTuya](https://github.com/rospogrigio/localtuya) developers
+- [LocalTuya](https://github.com/xZetsubou/hass-localtuya) by xZetsubou (actively maintained fork)
 - Tuya IoT Platform
 
 ---
