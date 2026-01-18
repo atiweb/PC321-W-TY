@@ -1,7 +1,7 @@
 # PC321-W-TY WiFi Energy Meter - Home Assistant Integration
 
 <p align="center">
-  <img src="images/pc321-w-ty.png" alt="PC321-W-TY Energy Meter" width="300">
+  <img src="images/pc321-w-ty-1.avif" alt="PC321-W-TY Energy Meter" width="300">
 </p>
 
 [![Home Assistant](https://img.shields.io/badge/Home%20Assistant-2024.1+-blue.svg)](https://www.home-assistant.io/)
